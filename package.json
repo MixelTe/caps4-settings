@@ -1,8 +1,9 @@
 {
-  "name": "caps4-lang",
-  "displayName": "Caps4 Lang",
-  "description": "Syntax highlighting for Caps4",
-  "version": "0.0.1",
+  "name": "caps4-settings",
+  "displayName": "Caps4 Settings",
+  "description": "Syntax highlighting for Caps4 settings",
+  "icon": "imgs/icon.png",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },
