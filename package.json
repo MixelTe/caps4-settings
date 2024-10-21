@@ -1,0 +1,28 @@
+{
+  "name": "caps4-lang",
+  "displayName": "Caps4 Lang",
+  "description": "Syntax highlighting for Caps4",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "caps4",
+      "aliases": ["Caps4", "caps4"],
+      "extensions": [".caps-settings"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "caps4",
+      "scopeName": "source.caps4",
+      "path": "./syntaxes/caps4.tmLanguage.json",
+      "embeddedLanguages": {
+        "meta.embedded.block.javascript": "javascript"
+      }
+    }]
+  }
+}
